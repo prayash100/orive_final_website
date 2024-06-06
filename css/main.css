@@ -465,6 +465,7 @@ ul.list ul.list-styled li:before {
   list-style: none;
   padding-bottom: 15px;
   padding-top: 14px;
+  text-align: left;
 }
 
 .list li :before {
@@ -494,6 +495,7 @@ ul.list ul.list-styled li:before {
   font-weight: 400;
   list-style: none;
   padding: 5px 0 5px 5px;
+  text-align: left;
 }
 
 .list1 li:before {
@@ -1668,7 +1670,7 @@ Owl Default Theme
   bottom: 20px;
   left: 0;
   margin: 0;
-  position: absolute;
+  position: relative;
   right: 0;
 }
 
@@ -1828,7 +1830,7 @@ Owl Default Theme
 }
 
 .testimonials-sliders.ds .owl-dots .owl-dot {
-  *display: inline;
+  display: inline;
   display: inline-block;
   zoom: 1;
 }
@@ -6627,6 +6629,7 @@ body.boxed {
     padding-top: 30px;
   }
 }
+
 
 /*-lg- side-item paddings and margins*/
 
